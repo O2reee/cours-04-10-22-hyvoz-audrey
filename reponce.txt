@@ -1,0 +1,51 @@
+VARIABLES
+
+ex:1
+var favoriteFood = 'pizza';
+var numOfSlices = 8
+console.log(favoriteFood);
+console.log(numOfSlices);
+
+ex2
+let changeMe = true
+console.log(changeMe);
+changeMe = false
+
+ex3 
+const entree = 'Enchiladas'
+console.log(entree);
+entree = 'tacos'
+
+ex4
+levelUp += 5
+powerLevel -= 100
+multiplyMe *= 11
+quarterMe /= 4
+
+ex5 
+let gainedDollar = 3;
+let lostDollar = 50;
+gainedDollar++;
+lostDollar--;
+
+ex6 
+let favoriteAnimal = "dog"
+
+console.log("My favorite animal: " + favoriteAnimal);
+
+ex7
+let myName = 'Audrey';
+let myCity = 'Porto';
+
+console.log(`My name is ${myName}. My favorite city is ${myCity}.`)
+
+ex8
+let newVariable = 'Playing around with typeof.';
+
+console.log( typeof newVariable)
+
+newVariable = 1
+
+console.log(typeof newVariable)
+
+
