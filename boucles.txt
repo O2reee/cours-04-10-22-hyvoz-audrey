@@ -1,0 +1,44 @@
+ex1
+// Write your code below
+const vacationSpots = ['Portugal', 'France', 'Mexique'];
+console.log(vacationSpots[0]);
+console.log(vacationSpots[1]);
+console.log(vacationSpots[2]);
+
+ex2
+// Write your code below
+for (let counter = 5; counter < 11; counter++) { 
+console.log(counter);
+} 
+
+ex3
+// The loop below loops from 0 to 3. Edit it to loop backwards from 3 to 0
+for (let counter = 3; counter >= 0; counter--){
+  console.log(counter);
+}
+
+ex4
+
+ex5
+// Write your code below
+let bobsFollowers = ['pierre', 'paul', 'jacques', camille];
+let tinasFollowers = ['julie', 'camille', 'laura'];
+let mutualFollowers = [];
+
+for (let i = 0; i < bobsFollowers.length; i++) {
+  for (let j = 0; j < tinasFollowers.length; j++) {
+    if (bobsFollowers[i] === tinasFollowers[j]) {
+      mutualFollowers.push(bobsFollowers[i]);
+   	 } 
+    }
+};
+ex6
+const cards = ['diamond', 'spade', 'heart', 'club'];
+
+// Write your code below
+let currentCard;
+
+while ( currentCard != 'spade') {
+currentCard = cards[Math.floor(Math.random() * 4)];
+console.log(currentCard);
+}
